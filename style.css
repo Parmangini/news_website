@@ -1,0 +1,73 @@
+/*CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    background-color: #800000;
+    height:45px;
+}
+#navbar ul{
+    display:flex;
+   
+}
+#navbar ul li{
+  color:white;
+  list-style: none;
+  font-size: 1.2rem;
+  margin-left: 2%;
+
+}
+#navbar ul li a{
+    display:block;
+    padding:6px 15px;
+    border-radius:18px;
+    text-decoration: none;
+    color:white;
+    
+}
+#navbar ul li a:hover{
+   color:black;
+   background-color: wheat;
+    
+}
+.img1{
+    max-width:20%;
+    height:auto;
+    margin-left: 2%;
+    margin-top: 1%;
+   
+}
+#head{
+    margin-left: 3%;
+    font-size: 1.5em;
+    margin-top: 3%;
+}
+
+.img2{
+    max-width: 20%;
+    display:grid;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+.info{
+    padding-bottom:2% ;
+}
+.info1 ,.info2,.info3,.info4,.info5,.info6{
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+    
+}
+.card2{
+    float:right;
+    padding-right: 14%;
+    margin-top: 1%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2%;
+   
+   
+
+}
